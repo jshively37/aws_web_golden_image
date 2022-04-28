@@ -72,5 +72,9 @@ build {
       "build-time"   = timestamp()
       "build-source" = basename(path.cwd)
     }
+    build_labels = {
+      "build-time"   = timestamp()
+      "build-source" = basename(path.cwd)
+    }
   }
 }
