@@ -11,6 +11,7 @@ variable "version" {
   type    = string
   default = "1.0.0"
 }
+
 data "amazon-ami" "web-east" {
   region = "us-east-2"
   filters = {
